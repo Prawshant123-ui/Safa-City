@@ -9,7 +9,7 @@ export default function BinMap({
   renderPopup,
 }) {
   const first = bins[0];
-  const fallback = [20.5937, 78.9629]; // India centroid
+  const fallback = [20.5937, 78.9629]; 
   const c =
     center ||
     (first ? [first.latitude, first.longitude] : fallback);
