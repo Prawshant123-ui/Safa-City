@@ -16,7 +16,13 @@ const app = express();
 app.use(helmet());
 
 
-app.use(cors({ origin: process.env.CLIENT_URL }));
+const cors = require("cors");
+
+app.use(cors({
+  origin: process.env.CLIENT_URL,
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+}));
 
 app.use(express.json());
 app.use(morgan("dev"));
