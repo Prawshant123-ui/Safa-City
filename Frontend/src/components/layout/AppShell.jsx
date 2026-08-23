@@ -34,10 +34,10 @@ export default function AppShell({ children }) {
       <aside className="hidden w-64 shrink-0 border-r border-line bg-surface md:flex md:flex-col">
         <div className="flex h-16 items-center gap-2 border-b border-line px-5">
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-white font-bold">
-            C
+            S
           </div>
           <div>
-            <div className="text-sm font-bold text-ink">CleanCity</div>
+            <div className="text-sm font-bold text-ink">SafaCity</div>
             <div className="text-xs text-body">Smart Waste</div>
           </div>
         </div>
