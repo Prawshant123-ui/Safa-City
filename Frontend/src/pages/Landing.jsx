@@ -119,10 +119,14 @@ export default function Landing() {
             transition={{ duration: 0.5 }}
             className="mx-auto max-w-3xl text-center"
           >
-            <div className="mx-auto inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
+            {/* <div className="mx-auto inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold text-primary"> */}
               {/* <span className="h-1.5 w-1.5 rounded-full bg-primary" /> */}
-              Live in your neighborhood
-            </div>
+              {/* Live in your neighborhood */}
+            {/* </div> */}
+
+            <div className="mx-auto inline-flex items-center text-xs font-semibold text-primary">
+  Live in your neighborhood
+</div>
             <h1 className="mt-5 text-4xl font-extrabold tracking-tight text-ink md:text-6xl">
               Cleaner cities,{" "}
               <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
