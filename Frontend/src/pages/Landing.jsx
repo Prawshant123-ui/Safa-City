@@ -8,10 +8,27 @@ import { useAuth } from "../context/AuthContext.jsx";
 import { roleHome } from "../lib/format.js";
 
 const demoBins = [
-  { id: "1", latitude: 28.6139, longitude: 77.209, address: "Connaught Place", status: "OVERFLOWING" },
-  { id: "2", latitude: 28.62, longitude: 77.22, address: "Karol Bagh", status: "FULL" },
-  { id: "3", latitude: 28.605, longitude: 77.19, address: "Rajiv Chowk", status: "NORMAL" },
-  { id: "4", latitude: 28.61, longitude: 77.24, address: "ITO", status: "NORMAL" },
+  {
+    id: "1",
+    latitude: 27.640836546739013,
+    longitude: 84.40776810720483,
+    address: "Gitanagar",
+    status: "OVERFLOWING",
+  },
+  {
+    id: "2",
+    latitude: 27.646123778631235,
+    longitude: 84.38260561099408,
+    address: "Kailashnagar",
+    status: "FULL",
+  },
+  {
+    id: "3",
+    latitude: 27.566139741490133,
+    longitude: 84.327750910991,
+    address: "Jagatpur",
+    status: "NORMAL",
+  },
 ];
 
 const chartData = {
@@ -103,7 +120,7 @@ export default function Landing() {
             className="mx-auto max-w-3xl text-center"
           >
             <div className="mx-auto inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary" />
+              {/* <span className="h-1.5 w-1.5 rounded-full bg-primary" /> */}
               Live in your neighborhood
             </div>
             <h1 className="mt-5 text-4xl font-extrabold tracking-tight text-ink md:text-6xl">
